@@ -4,16 +4,16 @@ body {
 header {
     margin: 0%;
     padding: 50px;
-    background-color: bisque;
+    background-color: #d2b48c;
 }
 
 section {
     margin-top: 0%;
     padding: 50px;
-    background-color: antiquewhite;
+    background-color: #fffaf0;
 }
 
 footer {
     padding: 50px;
-    background-color: bisque;
+    background-color: #d2b48c;
 }
