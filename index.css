@@ -1,4 +1,5 @@
 header {
+    padding: 50px;
     background-color: bisque;
 }
 
@@ -7,6 +8,6 @@ section {
 }
 
 footer {
-    margin-bottom: 30px;
+    padding: 30px;
     background-color: bisque;
 }
