@@ -1,13 +1,17 @@
+body {
+    margin: 0px;
+}
 header {
     padding: 50px;
     background-color: bisque;
 }
 
 section {
+    padding: 50px;
     background-color: antiquewhite;
 }
 
 footer {
-    padding: 30px;
+    padding: 50px;
     background-color: bisque;
 }
