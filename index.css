@@ -2,11 +2,13 @@ body {
     margin: 0px;
 }
 header {
+    margin: 0%;
     padding: 50px;
     background-color: bisque;
 }
 
 section {
+    margin-top: 0%;
     padding: 50px;
     background-color: antiquewhite;
 }
