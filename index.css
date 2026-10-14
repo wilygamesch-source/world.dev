@@ -17,3 +17,8 @@ footer {
     padding: 50px;
     background-color: #d2b48c;
 }
+
+.yt-thumbnail {
+    height: 169px;
+    width: auto;
+}
