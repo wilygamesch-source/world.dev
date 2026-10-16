@@ -85,5 +85,24 @@
     <footer>
       &copy;2026 ワールド開発部
     </footer>
+    <dialog id="image-viewer">
+    <button onclick="closeImage()">閉じる ✕</button>
+    <img id="large-image" src="" alt="">
+</dialog>
+
+<script>
+function openImage(image) {
+    const viewer = document.getElementById("image-viewer");
+    const largeImage = document.getElementById("large-image");
+
+    largeImage.src = image.src;
+    largeImage.alt = image.alt;
+    viewer.showModal();
+}
+
+function closeImage() {
+    document.getElementById("image-viewer").close();
+}
+</script>
   </body>
   </html>
