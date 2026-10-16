@@ -103,6 +103,11 @@ function openImage(image) {
 function closeImage() {
     document.getElementById("image-viewer").close();
 }
+document.getElementById("image-viewer").addEventListener("click", function(event) {
+    if (event.target === this) {
+        this.close();
+    }
+});
 </script>
   </body>
   </html>
