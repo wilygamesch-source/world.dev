@@ -97,8 +97,17 @@ function openImage(image) {
     const viewer = document.getElementById("image-viewer");
     const largeImage = document.getElementById("large-image");
 
+    // 古い画像をいったん隠す
+    largeImage.style.visibility = "hidden";
+
+    // 新しい画像を読み込む
+    largeImage.onload = function() {
+        largeImage.style.visibility = "visible";
+    };
+
     largeImage.src = image.dataset.full;
     largeImage.alt = image.alt;
+
     viewer.showModal();
 }
 
